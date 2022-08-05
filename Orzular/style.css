@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(145, 145, 255);
+}
+.quick{
+    font-family: 'Quicksand', sans-serif;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Images/1398336.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: fixed; */
+}
+.orzu{
+    width: 100%;
+    height: 100vh;
+}
+.orzu-container{
+    width: 90%;
+    margin: 0 auto;
+}
+.class{
+    width: 100%;
+    height: 50px;
+}
+.class-2{
+    width: 100%;
+    height: 8vh;
+}
+.orzu-title{
+    width: 33%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+    color: #fff;
+    font-size: 25px;
+}
+
+.orzu-title h1{
+    text-shadow: 10px 10px 90px #fff;
+}
+.list{
+    padding: 0.2rem 1rem;
+    list-style: none;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 1rem;
+    border: 1px solid transparent;
+}
+.list:hover{
+    background: rgba(255, 255, 255, 0.665);
+    color: #000;
+    border: 1px solid #fff;
+    transition: 0.5s ease;
+}
+.list a{
+    text-decoration: none;
+    text-align: center;
+    color: #000;    
+}
+.bulin{
+    position: absolute;
+    margin-top: 8px;   
+    display: none;
+    margin-left: -10px;
+}
+.bulak{
+    padding: 0.2rem 0.8rem;
+    background-color: #fff;
+    list-style: none;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    margin: 0.5rem;
+    
+}
+.bulak:hover{
+    background: rgba(255, 255, 255, 0.665);
+    color: #000;
+    border: 1px solid #fff;
+    transition: 0.5s ease;
+    display: block;
+}   
+.list:hover .bulin{
+    display: block;
+}
+.button-joylash{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+}
+.button-itar{
+    width:100% ; 
+    height: 60vh;
+    
+}
+#tepaga{
+    position: fixed;
+    padding: 0.5rem 1.2rem;
+    background-color: #fff;
+    list-style: none;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    font-size: 22px;
+}
+#tepaga a{
+    text-decoration: none;
+    color: #000;
+}
+#tepaga i{
+    padding-top: 0.2rem;
+}
+#tepaga:hover{
+    background: rgba(255, 255, 255, 0.665);
+    color: #000;
+    border: 1px solid #fff;
+    transition: 0.5s ease;
+}
+/* .scrolling{
+    color: red;
+    background-color: black;
+    
+} */
+.full{
+    width: 100%;
+    height: 100vh;
+}
+.full-container{
+    width: 90%;
+    margin:  auto;
+}
+.full-title{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    font-size: 20px;
+}
+.full-image{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+.full-image img {
+    width: 60%;
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: center; */
+}
+.class-3{
+    width: 100%;
+    height: 5vh;
+}
+.icon{
+    width: 5%;
+    height: 100vh;
+    align-items: center;
+}
+.full-image i{
+    width: 100%;
+    float: right;
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+    color: yellow;
+    background: #000;
+    text-align: center;
+    height: 50px;
+    border-radius: 50%;
+}
+.full-image i:hover{
+    background-color: #000;
+    transition: 1s ease;
+}
+.full-text{
+    width: 95%;
+    margin: 0 auto;
+}
+.full-text p {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px ;
+    font-weight: 600;
+}
+.class-4{
+    width: 100%;
+    height: 135vh;
+}
+.raketa{
+    width: 100%;
+    height: 100vh;
+}
+.raketa-container{
+    width: 95%;
+    margin: 0 auto;
+}
+.raketa-title{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    font-size: 20px;
+}
+.raketa-align{
+    width: 100%;
+    /* display: flex; */
+}
+.raketa-image{
+    width: 100%;
+}
+.raketa-image img{
+    width: 46%;
+    height: 90vh;
+    float: left;
+    background-position: center;
+    background-size: cover;
+}
+.raketa-text{
+    float: right;
+    width: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+.raketa-text h1{
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.raketa-text p {
+    line-height: 28px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    /* word-spacing: 1px; */
+    font-weight: 600;
+}  
+.icon-2{
+    width: 50%;
+    float: right;
+}
+#like-2{
+    padding: 10px;
+    font-size: 30px;
+    color: yellow;
+    background: #000;
+    text-align: center;
+    height: 50px;
+    border-radius: 50%;
+}
+#like-2:hover{
+    background-color: #000;
+    transition: 1s ease;
+}
+.class-5{
+    width: 100%;
+    height: 10vh;
+}
+.maqsad{
+    width: 100%;
+    height: 150vh;
+}
+.maqsad-container{
+    width: 90%;
+    margin: 0 auto;
+}
+.maqsad-title{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    font-size: 20px;
+}
+.maqsad-image{
+    width: 100%;
+    height: 70vh;
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+}
+.maqsad-image img{
+    width: 58%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.maqsad-itar{
+    width: 100%;
+    height: 6vh;
+}
+.maqsad-text{
+    width: 100%;
+}
+.maqsad-text p {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.icon-3{
+    width: 3%;
+    float: right;
+}
+
+#like-3{
+    padding: 10px;
+    font-size: 30px;
+    color: yellow;
+    background: #000;
+    text-align: center;
+    height: 50px;
+    border-radius: 50%;
+    /* float: right; */
+}
+#like-3:hover{
+    background-color: #000;
+    transition: 1s ease;
+}
+.footer{
+    width: 100%;
+}
+.footer-container{
+    width: 90%;
+    margin: 0 auto;
+}
+.footer-title{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    border-top: 1px solid black;
+}
+.footer-navigation{
+    display: flex;
+    justify-content: center;
+}
+.footer-navigation a{
+    padding: 0.3rem 0.5rem ;
+    background-color: #fff;
+    margin: 0.4rem;
+    border-radius: 50%;
+}
+.footer-navigation a i{
+    font-size: 30px;
+}
+.footer-navigation a:hover{
+    background-color: transparent;
+    transition: 0.5s ease;
+}

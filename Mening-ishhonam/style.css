@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.543);
+}
+.quick{
+    font-family: 'Quicksand', sans-serif;
+}
+.itar-1{
+    width: 100%;
+    height: 110vh;
+}
+.background{
+    width: 100%;
+    height:60vh;
+    background: url(./Images/TechnoPark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.itar{
+    width: 100%;
+    height: 405px;
+}
+.hona{
+    width: 100%;
+    height: 100vh;
+}
+.hona-container{
+    /* width: 100%; */
+    width: 95%; 
+     margin: 0 auto;
+}
+.hona-title{
+    width: 100%;
+    height: 42vh;
+    /* border: 1px solid red; */
+    text-align: center;
+    /* transform: rotateZ(-50deg); */
+}
+.hona-title h1{
+    font-size: 35px;
+    margin-bottom: 0.6rem;
+}
+.hona-title p{
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 18px;
+}
+.image{
+    width: 100%;
+}
+.image-container{
+    width: 90%;
+    margin: 0 auto;
+}
+.image-title{
+    font-size: 20px;
+    width: 100%;
+    height: 12vh;
+    text-align: center;
+}
+.image-img{
+    width: 100%;
+    height: 72vh;
+}
+.image-img img{
+    border: 3px solid #fff;
+    width: 60%;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+.image-text p{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.class{
+    width: 100%;
+    height: 14vh;
+}
+.hona-btn{
+    width: 100%;   
+    display: flex;
+    justify-content: center;
+}
+.hona-btn button{
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.hona-btn button a{
+    text-decoration: none;
+    color: black;
+    padding: 0.1rem;
+}
+/* .hona-btn button a:hover{
+    border-bottom: 1px solid black;
+} */
+.hona-btn button:hover{
+    background-color: rgba(128, 128, 128, 0.646);
+    transform: translateX(10px);
+    transition: 0.8s ease;
+}
+.hona-btn button:hover a{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.759);
+    color: rgba(0, 0, 0, 0.759);
+}
+.crying{
+    width: 100%;
+    height: 6vh;
+}
